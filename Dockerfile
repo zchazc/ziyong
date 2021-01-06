@@ -1,7 +1,7 @@
 FROM golang:alpine AS builder
 WORKDIR /
 RUN apk add git make &&\
-    git clone https://github.com/p4gefau1t/trojan-go.git &&\
+    git clone https://github.com/zchazc/ziyong.git &&\
     cd trojan-go &&\
     make &&\
     wget https://github.com/v2ray/domain-list-community/raw/release/dlc.dat -O build/geosite.dat &&\

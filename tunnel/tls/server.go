@@ -14,6 +14,7 @@ import (
 	"os"
 	"strings"
 	"time"
+	"fmt"
 
 	"github.com/p4gefau1t/trojan-go/common"
 	"github.com/p4gefau1t/trojan-go/config"

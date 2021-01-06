@@ -20,6 +20,7 @@ func (e *Error) Base(err error) *Error {
 }
 
 func NewError(info string) *Error {
+	fmt.Println(info)
 	return &Error{
 		info: info,
 	}
